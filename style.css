@@ -1,7 +1,38 @@
+html {
+    font-family: sans-serif;
+}
+
+button {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    background-color: gray;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+}
+
+#title-heading {
+    text-align: center;
+}
+
 .container {
     display: inline-grid;
+    float: left;
     margin: 50px;
-    height: 1000px;
-    width: 1000px;
+    height: 600px;
+    width: 600px;
     border: solid 1px;
+}
+
+#grid-size {
+    margin-top: 100px;
+}
+
+#clear-button {
+    float: left;
+    margin: 30px 20px;
+    background-color: red;
+    color: white;
+    font-size: large;
 }
